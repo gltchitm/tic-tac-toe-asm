@@ -8,4 +8,4 @@ Run `./start.sh` in the project directory. You will need `nasm` installed.
 To extract game data, execute `./util/extract_game_data.py`. Enter the game data bitmask (can be retrieved using a debugger like `gdb`). It will then decode the data and print out readable values.
 
 ## License
-[The Unlicense](https://choosealicense.com/licenses/unlicense/)
+[MIT License](LICENSE)
