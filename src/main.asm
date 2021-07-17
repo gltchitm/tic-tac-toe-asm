@@ -14,7 +14,7 @@ section .data
     rematch_prompt: db "Rematch? (y/n): "
     rematch_prompt_len: equ $-rematch_prompt
 
-    clear_sequence: db  27, "[H", 27, "[2J"
+    clear_sequence: db 27, "[H", 27, "[2J"
     clear_sequence_len: equ $-clear_sequence
 
     player_x_turn: db "Player X's Turn", 10
