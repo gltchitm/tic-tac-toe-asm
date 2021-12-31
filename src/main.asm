@@ -66,14 +66,14 @@ section .data
     mask_turn_x: equ 134217728
     mask_turn_o: equ 1073741824
 section .text
-    %include "src/include/exit.asm"
-    %include "src/include/game.asm"
-    %include "src/include/print.asm"
-    %include "src/include/clear.asm"
-    %include "src/include/input.asm"
-    %include "src/include/rematch.asm"
-    %include "src/include/gameboard.asm"
-    %include "src/include/win_detect.asm"
+    %include "src/exit.asm"
+    %include "src/game.asm"
+    %include "src/print.asm"
+    %include "src/clear.asm"
+    %include "src/input.asm"
+    %include "src/rematch.asm"
+    %include "src/gameboard.asm"
+    %include "src/win_detect.asm"
 
     global _start
 
