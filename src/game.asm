@@ -1,5 +1,9 @@
 %macro move_handler 1
     .handle_%1_move:
+        cmp rax, 113
+        je exit
+        cmp rax, 81
+        je exit
         cmp rax, 49
         je .spot_0_%1
         cmp rax, 50
